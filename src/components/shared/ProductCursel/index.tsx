@@ -13,9 +13,9 @@ const ProductCarousel: FC<{ ProductData: Array<oneProductType> }> = ({ ProductDa
             </div>
             <div
                 className="select-none flex gap-4 overflow-x-hidden scrollGrab py-4 overflow-y-hidden">
-                {ProductData !== null && ProductData !== undefined && ProductData.map((item: oneProductType, index: number) => (
+                {/* {ProductData !== null && ProductData !== undefined && ProductData.map((item: oneProductType, index: number) => (
                     <Card key={index} singleProductData={item} />
-                ))}
+                ))} */}
             </div>
         </div>
     )
